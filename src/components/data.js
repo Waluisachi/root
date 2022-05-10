@@ -22,3 +22,10 @@ export const web3 = {
   order: "order-last",
   description: "I’ve worked on several blockchain applications (core blockchain),  NFT projects on cardano blockchain and blockchain hard forks."
 }
+
+export const android = {
+  title: "I do Mobile App Developement",
+  salutation: "Bonjour",
+  order: "",
+  description: "I have passion for developing full appications from a web UI to mobile apps using React Native."
+}

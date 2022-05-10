@@ -1,18 +1,33 @@
-import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar';
-import Card from './components/card';
-import Footer from './components/Footer';
 import Contact from './components/Contact';
-import  { iot, web3, software} from './components/data';
+
+import Home from './screens/Home';
+import About from './screens/About';
+import Footer from './components/Footer';
+import ComingSoon from './screens/ComingSoon';
+import Licensing from './screens/Licensing';
+import Pricing from './screens/Pricing';
+
+
 
 function App() {
   return (
     <div className="App">
     <Navbar />
-    <Card {...software}/>
-    <Card {...web3}/>
-    <Card {...iot}/>
-    <Contact />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <Home />} />
+        <Route path="/services" element={ <Home />} />
+        <Route path="/about" element={ <About />} />
+        <Route path="/pricing" element={ <Pricing />} />
+        <Route path="/licensing" element={ <Licensing />} />
+        <Route path="/contacts" element={ <Contact />} />
+        <Route path="/*" element={ <ComingSoon />} />
+
+      </Routes>
+    </BrowserRouter>
+
     <Footer />
     </div>
   )

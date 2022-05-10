@@ -4,8 +4,7 @@ export const software = {
   order: "order-last",
   bg: "bg-black",
   text: "text-white",
-  image: "src/images/svg-6.svg",
-  description: "Am a software developer with extenxive  expirience  for over 4 years. My expertise are in the following areas: Web development, Web.3 development, Internet of Things and mobile app development"
+  description: "Am a software developer with extensive  expirience  for over 4 years. My expertise are in the following languages: C++ , c, PHP, Javascript, Solidity, Haskell, Java, HTML, CSS and SQL. Am a full stack developer good with React JS, NOSQL, Node JS, Laravel and Express JS"
 }
 
 export const iot = {
@@ -14,7 +13,6 @@ export const iot = {
   order: "",
   bg: "bg-black",
   text: "text-white",
-  image: "src/images/svg-4.svg",
   description: "I specialize in developing solutions and improvments  to real life issues using IOT technologies. Projects I have worked on incluide smart homes, smart agriculture and security systems. "
 }
 
@@ -22,6 +20,5 @@ export const web3 = {
   title: " I Am Web.3 Developer",
   salutation: "Salut",
   order: "order-last",
-  image: "src/images/svg-2.svg",
   description: "I’ve worked on several blockchain applications (core blockchain),  NFT projects on cardano blockchain and blockchain hard forks."
 }
